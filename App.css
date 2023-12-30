@@ -1,0 +1,99 @@
+
+html{
+  font-size: 63.5%;
+}
+body{
+  display: flex;
+
+  text-align: center;
+  }
+table {
+  margin: 5rem  ;
+  border-radius: 2rem;
+  border: 1rem hidden #443C68;
+  border-collapse: collapse;
+  box-shadow: 0 0 0 1px black;
+  overflow: hidden;
+  max-width: 80rem;
+}
+button{
+  margin-right: 16px;
+}
+li, p, a, td{
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+thead {
+  font-size: 1.8rem;
+  background-color: #443C68;
+  color: #fff;
+}
+th,
+td {
+  border: 1px solid #443C68;
+  min-width: 30rem;
+  padding: 1.5rem;
+  line-height: 1.7;
+}
+td {
+  font-size: 1.4rem;
+}
+.addBtn{
+  color:white;
+  background-color:chocolate;
+  height:48px;
+  padding: 16px;
+  border-radius: 8px;
+  border: 0px;
+  margin-top: 24px;
+   cursor: pointer;
+}
+.close{
+  color:white;
+  background-color:burlywood;
+  height:48px;
+  padding: 16px;
+  border-radius: 8px;
+  border: 0px;
+  margin-top: 24px;
+  margin-left: 24px;
+  cursor: pointer;
+}
+.popup{
+  background-color: rgba(0,0,0,0.6);
+  width: 100%;
+  height: 100%;
+  position:absolute;
+  top:0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.popup-content{
+  height: 350px;
+  width: 500px;
+  background-color: #fff;
+  padding: 20px;
+  position: relative;
+  border-radius: 8px;
+}
+input , textarea{
+margin: 8px auto;
+display: block;
+width: 80%;
+padding: 8px;
+border: 1px solid gray;
+border-radius: 8px;
+}
+
+.heading{
+  font-size: 16px;
+margin-top: 16px;
+}
+.stopOverflow{
+  overflow-y: hidden;
+}
+.overflow{
+  overflow-y: auto;
+}
